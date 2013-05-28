@@ -1,34 +1,34 @@
 <?php
 
-    /**
-     * DataBase Populator
-     * Class for populating MySQL tables with dummy data
-     * 
-     * @version		1.0
-     * @release		2010-08-03
-     * @author		Rafael Jaques
-     * @url			http://www.phpit.com.br/
-     * @contact		rafa@php.net
+	/**
+	 * DataBase Populator
+	 * Class for populating MySQL tables with dummy data
+	 * 
+	 * @version		1.0
+	 * @release		2010-08-03
+	 * @author		Rafael Jaques
+	 * @url			http://www.phpit.com.br/
+	 * @contact		rafa@php.net
 	 * @github		rafajaques
-     * 
-     * Any suggestion, request or bug, request on GitHub!
-     *
-     * If you code any class based on this one, please let me now.
-     * I'll be proud of that!
-     *
+	 * 
+	 * Any suggestion, request or bug, request on GitHub!
+	 *
+	 * If you code any class based on this one, please let me now.
+	 * I'll be proud of that!
+	 *
 	 * This file is licensed under BSD License.
-     *
-     * For the full copyright and license information, please view the LICENSE
-     * file that was distributed with this source code.
-     * 
-     */
+	 *
+	 * For the full copyright and license information, please view the LICENSE
+	 * file that was distributed with this source code.
+	 * 
+	 */
     class DBPopulator {
         
         /**
          * Configuration
          */
         
-        // Define what fields can be recognised
+        // Define what fields may be recognised
         private $dummyName              = array('name', 'nome', 'nombre', 'nom');
         private $dummyAge               = array('idade', 'age');
         private $dummyLink              = array('link', 'url', 'uri', 'site', 'website');
