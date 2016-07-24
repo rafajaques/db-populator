@@ -43,6 +43,8 @@ Example (generating a script to populate two tables with 20 records each):
 $db->populate(array('mydb.table1', 'mydb.table2'), 20, 'my_script.sql');
 ```
 
+There is also an example in [example.php](https://github.com/rafajaques/DB-Populator/blob/master/example.php).
+
 3. Customisation
 ----------------
 
